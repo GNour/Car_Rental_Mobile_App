@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.car_rental_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hd"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hd"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarRentalProject">
+        <activity android:name=".EditCar" />
+        <activity android:name=".RentCar" />
+        <activity android:name=".ViewReservation"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".AddCar"/>
+        <activity android:name=".ViewCars">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".Login_Form">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup_Form"/>
+    </application>
+
+</manifest>
